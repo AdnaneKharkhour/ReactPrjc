@@ -14,7 +14,7 @@ function App() {
     <div>
       <Header/>
       <main>
-        <section>
+        <section id='core-concepts'>
           <ul>
             <CoreConcept {...CORE_CONCEPTS[0]}/>
             <CoreConcept {...CORE_CONCEPTS[1]} />
