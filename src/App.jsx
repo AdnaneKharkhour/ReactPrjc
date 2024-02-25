@@ -1,5 +1,7 @@
 import Header from './components/Header.jsx';
+import TabButton from './components/TabButton.jsx';
 import {CORE_CONCEPTS} from './data.js';
+import ClickButton from './components/TabButton.jsx';
 function CoreConcept({image,title,description}){
   return(
     <li>
@@ -20,6 +22,14 @@ function App() {
             <CoreConcept {...CORE_CONCEPTS[1]} />
             <CoreConcept {...CORE_CONCEPTS[2]} />
           </ul>
+        </section>
+        <section id='products'>
+          <h2>Products</h2>
+          <menu>
+            <TabButton>Monitor</TabButton>
+            <TabButton>Pc</TabButton>
+            <TabButton>Accessories</TabButton>
+          </menu>
         </section>
       </main>
     </div>
