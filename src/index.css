@@ -113,6 +113,12 @@ main h2 {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
+#tab-content img {
+  height: 16rem;
+  width: 16rem;
+  object-fit: cover;
+}
+
 #tab-content h3 {
   margin: 0;
 }
