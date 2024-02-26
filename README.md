@@ -1,2 +1,2 @@
 # ReactPrjc
-1
+A project to hone my React skills.
